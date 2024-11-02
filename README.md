@@ -1,1 +1,1 @@
-# CPSC362_Project
+# CPSC 362 Project
