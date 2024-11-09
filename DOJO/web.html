@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Club Penguin</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="client.js" defer></script>
+    </head>
+    <body>
+            <!-- Start Page Section -->
+        <div class="start-page" id="start-page">
+            <h1>Welcome to the Club Penguin Dojo</h1>
+            <button id="single-player-btn">Single Player</button>
+            <button id="multiplayer-btn">Multiplayer</button>
+        </div>
+
+            <!-- Game Interface Section (hidden initially) -->
+        <div class="container" id="game-interface">
+            <h1>Choose your card:</h1>
+        </div>
+        
+        <div class="cards-container" id="cards-container" style="display: none;">
+            <button id="snow"> </button>
+            <button id="fire"> </button>
+            <button id="water"> </button>
+        </div>
+
+        <div class="chosen-card" id="chosen-card">
+            <div> <h1 id="chosen-card-header" style="display: none;">Your Card</h1> </div>
+            <div> <img id="chosen-card-img" src=""/> </div>
+        </div>
+        
+    
+    </body>
+</html>
