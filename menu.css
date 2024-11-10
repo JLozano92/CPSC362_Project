@@ -1,0 +1,20 @@
+body {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(backgrounds/penguins3kx2k.webp);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: greenyellow;
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    margin: 50px auto;
+    display: block;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+    color: greenyellow;
+    font-size: 20px;
+}
