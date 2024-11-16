@@ -41,10 +41,7 @@ button {
     background-color: lightslategray;
     color: greenyellow;
   }
-  
-  /* Style the "active" element to highlight the current page */
 
-  
   /* Style the search box inside the navigation bar */
   .topnav input[type=text] {
     float: right;
