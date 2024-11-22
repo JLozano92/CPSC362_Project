@@ -59,8 +59,9 @@ $get_frnd_num = $frnd_obj->get_all_friends($_SESSION['user_id'], false);
                     echo '<a href="functions.php?action=cancel_req&id='.$user_data->id.'" class="req_actionBtn cancleRequest">Cancel Request</a>';
                 }
                 elseif($check_req_receiver){
-                    echo '<a href="functions.php?action=ignore_req&id='.$user_data->id.'" class="req_actionBtn ignoreRequest">Ignore</a>&nbsp;
-                    <a href="functions.php?action=accept_req&id='.$user_data->id.'" class="req_actionBtn acceptRequest">Accept</a>';
+                    echo '<a href="functions.php?action=accept_req&id='.$user_data->id.'" class="req_actionBtn acceptRequest">Accept</a>  |  
+                    <a href="functions.php?action=ignore_req&id='.$user_data->id.'" class="req_actionBtn ignoreRequest">Ignore</a>&nbsp';
+                    
                 }
                 else{
                     echo '<a href="functions.php?action=send_req&id='.$user_data->id.'" class="req_actionBtn sendRequest">Send Request</a>';
@@ -71,7 +72,7 @@ $get_frnd_num = $frnd_obj->get_all_friends($_SESSION['user_id'], false);
         </div>
         <nav>
             <ul>
-                <li><a href="friends.php">Go back</a></li>
+                <li><a href="friends.php">Back to friends list</a></li>
             </ul>
         </nav>
         <button id="return" onclick="window.location.href='menu.html';">Return to Menu</button>
