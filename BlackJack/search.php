@@ -29,7 +29,7 @@ $get_frnd_num = $frnd_obj->get_all_friends($_SESSION['user_id'], false);
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
 <body>
-	<h2>CARD DOJO</h2>
+	<h2>Search</h2>
         <div class="all_users">
             <h3>All Users</h3>
             <div class="usersWrapper">
