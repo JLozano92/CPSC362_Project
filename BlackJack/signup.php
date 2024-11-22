@@ -20,18 +20,17 @@ if(isset($_SESSION['email'])){
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
 <body>
-	<h2>SIMPLE FRIEND SYSTEM</h2>
+	<h2>Sign Up Page</h2>
   <div class="main_container login_signup_container">
-    <h1>Sign Up</h1>
     <form action="" method="POST" novalidate>
       <label for="username">Full Name</label>
-      <input type="text" id="username" name="username" spellcheck="false" placeholder="Enter your full name" required>
+      <input type="text" id="username" name="username" spellcheck="false" placeholder="Enter your full name" required><br><br>
       <label for="email">Email</label>
-      <input type="email" id="email" name="email" spellcheck="false" placeholder="Enter your email address" required>
+      <input type="email" id="email" name="email" spellcheck="false" placeholder="Enter your email address" required><br><br>
       <label for="password">Password</label>
-      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
       <input type="submit" value="Sign Up">
-      <a href="index.php" class="form_link">Login</a>
+      <a href="index.php" class="form_link">Go back</a>
     </form>
     <div>  
       <?php
@@ -46,11 +45,6 @@ if(isset($_SESSION['email'])){
     
   </div>
 </body>
-<nav>
-  <ul>
-    <li><a href="index.php">Go back</a></li>
-  </ul>
-</nav>
 <footer>
     <p>&copy; 4-Stars </p>
 </footer>
