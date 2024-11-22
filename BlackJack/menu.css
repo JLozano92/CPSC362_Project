@@ -78,3 +78,15 @@ button {
       border: 1px solid gray;
     }
   }
+
+
+  .form_link, input[type="submit"] {
+    padding: 1px 6px;
+    background-color: #efefef;
+    border: 2px outset #efefef;
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    cursor: pointer;
+}
