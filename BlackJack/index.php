@@ -21,14 +21,15 @@ if(isset($_SESSION['email'])){
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
 <body>
-	<h2>CLASS DOJO</h2>
+	<h2>Login</h2>
   <div class="main_container login_signup_container">
-    <h1>Login</h1>
     <form action="" method="POST">
       <label for="email">Email</label>
-      <input type="email" id="email" name="email" spellcheck="false" placeholder="Enter your email address" required>
+      <input type="email" id="email" name="email" spellcheck="false" placeholder="Enter your email address" required><br><br>
+
       <label for="password">Password</label>
-      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+      
       <input type="submit" value="Login">
       <a href="signup.php" class="form_link">Sign Up</a>
       <div>  
