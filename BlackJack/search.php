@@ -31,7 +31,7 @@ $get_frnd_num = $frnd_obj->get_all_friends($_SESSION['user_id'], false);
 <body>
 	<h2>Search</h2>
         <div class="all_users">
-            <h3>All Users</h3>
+            <h3>All Users</h3><br>
             <div class="usersWrapper">
                 <?php
                 if($all_users){
@@ -39,7 +39,7 @@ $get_frnd_num = $frnd_obj->get_all_friends($_SESSION['user_id'], false);
                         echo '<div class="user_box">
                                 <div class="user_img"><img src="profile_images/'.$row->user_image.'" alt="Profile image"></div>
                                 <div class="user_info"><span>'.$row->username.'</span>
-                                <span><a href="user_profile.php?id='.$row->id.'" class="see_profileBtn">See profile</a></div>
+                                <span><a href="user_profile.php?id='.$row->id.'" class="see_profileBtn">See profile</a><br><br><br><br></div>
                             </div>';
                     }
                 }
