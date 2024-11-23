@@ -38,7 +38,7 @@ $get_frnd_num = $frnd_obj->get_all_friends($_SESSION['user_id'], false);
                     foreach($all_users as $row){
                         echo '<div class="user_box">
                                 <div class="user_img"><img src="profile_images/'.$row->user_image.'" alt="Profile image"></div>
-                                <div class="user_info"><span>'.$row->username.'</span>
+                                <div class="user_info"><span>'.$row->username.'</span><br>
                                 <span><a href="user_profile.php?id='.$row->id.'" class="see_profileBtn">See profile</a><br><br><br><br></div>
                             </div>';
                     }
