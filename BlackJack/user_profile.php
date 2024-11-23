@@ -70,11 +70,9 @@ $get_frnd_num = $frnd_obj->get_all_friends($_SESSION['user_id'], false);
         
             </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="friends.php">Back to friends list</a></li>
-            </ul>
-        </nav>
+      
+        <button class="back" onclick="window.location.href='search.php';">Back</button>
+        <button class="friends list" onclick="window.location.href='friends.php';">Friends List</button>    
         <button id="return" onclick="window.location.href='menu.html';">Return to Menu</button>
         
     </div>
